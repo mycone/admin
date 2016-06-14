@@ -1,0 +1,35 @@
+{  
+  "name": "mycone/admin",  
+  "description": "This is a site admin module for yii2",  
+  "keywords": [  
+    "yii2",  
+    "mycone",
+    "admin"
+  ],  
+  "homepage": "https://github.com/mycone/admin",  
+  "type": "yii2-extension",  
+  "license": "Apache 2.0",  
+  "support": {  
+    "source": "https://github.com/mycone/admin"  
+  },  
+  "authors": [  
+    {  
+      "name": "mycone",  
+      "email": "dzswchenhao@126.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "mycone\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
